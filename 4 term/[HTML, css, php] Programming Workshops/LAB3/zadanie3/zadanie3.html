@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rezerwacja hotelu (zadanie3)</title>
+    <link rel="stylesheet" href="css/zadanie3.css" />
+</head>
+
+<body>
+    <main>
+        <form class="reservation-form" method="post" action="zadanie3.php">
+            <h2>Formularz rezerwacji hotelu</h2>
+
+            <label>Ilość osób:
+                <select name="people" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+            </label>
+
+            <label>Imię: <input type="text" name="first_name" required></label>
+            <label>Nazwisko: <input type="text" name="last_name" required></label>
+            <label>Adres: <input type="text" name="address" required></label>
+            <label>Email: <input type="email" name="email" required></label>
+            <label>Numer karty kredytowej: <input type="text" name="card" maxlength="16" required></label>
+            <label>Data przyjazdu: <input type="date" name="arrival_date" required></label>
+            <label>Godzina przyjazdu: <input type="time" name="arrival_time"></label>
+
+            <label><input type="checkbox" name="child_bed"> Potrzebuję dostawki dla dziecka</label>
+
+            <label>Udogodnienia:</label>
+            <div class="checkbox-group">
+                <label><input type="checkbox" name="amenities[]" value="klimatyzacja"> Klimatyzacja</label>
+                <label><input type="checkbox" name="amenities[]" value="popielniczka"> Popielniczka</label>
+            </div>
+
+            <button type="submit">Dalej →</button>
+        </form>
+    </main>
+</body>
+
+</html>

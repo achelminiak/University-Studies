@@ -1,0 +1,2 @@
+Operacja: 5 - 5 = 0
+Operacja: 1 * 2 = 2
