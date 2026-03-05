@@ -1,11 +1,5 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/NLY2n6bT)
 # Zadanie: Gry Wojenne
 
-| Hard deadline   | Punkty     |
-|------------------|:-----------|
-| 22.06.2024 23:00 |    15      |
-
---- 
 
 W grze biorą udział dwaj generałowie ze swoimi armiami. Każdy generał posiada armię żołnierzy oraz worek ze złotymi monetami.
 
@@ -28,16 +22,3 @@ Generał może:
 
 Walczącym generałom przygląda się sekretarz prezydenta. Pisze on raporty dotyczące obu armii. Opisuje wszelkie akcje podjęte przez generałów oraz zmiany poszczególnych żołnierzy.
 Generał wraz ze swoimi zasobami powinien mieć możliwość zapisu i odczytu swojego stanu na / z dysku.
-
----
-
-W zadaniu oceniane będą:
-- Tworzenie klas: 	10%
-- Kompozycja: 		10%
-- Dziedziczenie: 	20%
-- Implementacje odpowiednich wzorców projektowych: 30%
-- Implementacja opisanych algorytmów:		 20%
-- Polimorfizm: 		10%
-
-### Uwaga
-Projekt powinien również zawierać odpowiednie testy jednostkowe do implementowanej funkcjonalności.
