@@ -1,16 +1,4 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/yKE0WWUE)
 # Zadanie Kalkulator
-
-| Termin oddania | Punkty     |
-|----------------|:-----------|
-|    24.03.2024 23:00  |   10        |
-
---- 
-Przekroczenie terminu o **n** zajęć wiąże się z karą:
-- punkty uzyskania za realizację zadania są dzielone przez **2<sup>n</sup>**.
-
---- 
-W katalogu `src` znajduje się wstępna implementacja klasy kalkulator wraz z przykładowymi testami jednostkowymi.
 
 ## Zadanie 1 [2 punkty]
 
