@@ -1,16 +1,4 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/Hdnu-SzS)
 # Zadania laboratoryjne: klasy, konstruktory, metody i testy
-
-| Termin oddania   | Punkty |
-| ------------ | ------------ |
-| 28.04.2024  23:00 | 15 |
-
---- 
-Przekroczenie terminu o **n** zajęć wiąże się z karą:
-- punkty uzyskania za realizację zadania są dzielone przez **2<sup>n</sup>**.
-
---- 
-
 
 ## Zadanie 1 (1 punkt)
 
@@ -69,7 +57,4 @@ Dodaj metodę:
 - `Amount`, które zwraca iloczyn `quantity` i `pricePerItem`. Jeżeli `pricePerItem` nie jest dodatnia, `Amount` powinien zwrócić 0. 
 Jeżeli `quantity` nie jest dodatnie, `Amount` powinna zwrócić 0.
 Przetestuj zaimplementowaną klasę.
-
-## UWAGA:
-- powyższych zadaniach stosować zasady Clean Code i [SOLID](https://www.samouczekprogramisty.pl/solid-czyli-dobre-praktyki-w-programowaniu-obiektowym/)
 - dla implementowanej funkcjonalności przygotuj testy jednostkowe.
