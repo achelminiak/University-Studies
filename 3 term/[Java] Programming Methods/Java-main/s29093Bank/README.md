@@ -14,6 +14,7 @@ użytkownika oraz ilości pieniędzy do wpłacenia. Ta metoda powinna zwracać o
 odczytamy status transakcji oraz nowe saldo.
 
 - odczytanie danych klienta -> do odczytu potrzebujemy jedynie identyfikatora użytkownika
+  
 Załóżmy, że każda transakcja może mieć jeden z dwóch statusów – ACCEPTED oraz DECLINED. 
 Pozostałe statusy wedle własnego uznania. Jeżeli podczas dokonywania płatności klient nie posiada 
 wystarczającego salda, bądź klient nie jest zarejestrowany, stosowna informacja powinna zostać 
