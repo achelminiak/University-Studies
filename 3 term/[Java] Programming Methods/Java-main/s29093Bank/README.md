@@ -3,7 +3,7 @@
 Napisz prostą aplikację, która będzie reprezentowała bank. Aplikacja musi być napisana z wykorzystaniem Spring boot i powinna pozwalać naprzeprowadzenie operacji:
 
 - rejestracja klienta -> w trakcie rejestracji podajemy saldo jakie ma mieć klient
-- 
+  
 - zlecenie przelewu -> do zlecenia przelewu potrzebujemy dwóch informacji, identyfikatora klienta 
 oraz wartości przelewu. Ta metoda powinna zwracać obiekt z którego odczytamy status transakcji
 oraz nowe saldo. Przelew ma być fikcyjny, nie musisz podawać adresata, metoda ma jedynie 
