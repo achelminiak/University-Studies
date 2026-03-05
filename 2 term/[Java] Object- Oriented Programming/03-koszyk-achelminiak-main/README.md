@@ -1,15 +1,4 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/8u5nv7VQ)
 # Zadanie: Koszyk Internetowy
-
-| Termin oddania | Punkty     |
-|----------------|:-----------|
-| 26.05.2024  23:00   |  15        |
-
---- 
-Przekroczenie terminu o **n** zajęć wiąże się z karą:
-- punkty uzyskania za realizację zadania są dzielone przez **2<sup>n</sup>**.
-
---- 
 
 Twoja firma dostała zlecenie na stworzenie oprogramowania dla dużego sklepu internetowego *JavaMarkt*. 
 Jedną z podstawowych funkcjonalności jest oprogramowanie koszyka zakupów, 
@@ -40,15 +29,3 @@ Cechy związane z klasą ``Product``:
 - cena produktu po uwzględnieniu promocji (discountPrice) - double
 
 W tym zadaniu użyj tablicy produktów jako kolekcji, na której będziesz operował.
-
----
-
-### Uwaga 1
-Projekt powinien zawierać odpowiednie testy jednostkowe do implementowanej funkcjonalności.
-
-### Uwaga 2
-Implementując koszyk i promocje zwróć uwagę na wzorzec projektowy [Command](https://www.oodesign.com/command-pattern.html).
-
-### Uwaga 3
-Planując mechanizm sortowania zwróć uwagę na [Dependency Inversion Principle](https://www.oodesign.com/dependency-inversion-principle.html) oraz 
-interfejsy dostępne w Java: ``Comparable`` oraz ``Comparator``.
